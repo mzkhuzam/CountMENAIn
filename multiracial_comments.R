@@ -45,7 +45,7 @@ OMB2023 <- OMB2023 %>%
 OMB2023 <- OMB2023 %>%
   filter(multiracial %in% 1) 
 
-save(OMB2023, file = "OMB2023_multiracial.csv")
+write.csv(OMB2023, file = "OMB2023_multiracial.csv")
 
   
   
